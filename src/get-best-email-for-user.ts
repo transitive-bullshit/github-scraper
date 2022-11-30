@@ -100,11 +100,11 @@ function computeScoreComparingTwoStrings(a: string, b: string): number {
 
   const editDistance = leven(a, b)
 
-  // deboost weight of shorter strings less than 6 characters
-  const l = Math.min(Math.max(0, a.length - 2), 6 - 2) / (6 - 2)
+  // deboost weight of shorter strings
+  const l = Math.min(Math.max(0, b.length - 2), 6 - 2) / (6 - 2)
   const lScale = 0.1 * (1.0 - l) + 1.0 * l
 
-  // boost exact matches and exact prefixes / exact suffixes
+  // boost exact matches and exact prefix / suffix matches
   const w = editDistance === 0 ? 5 : a.startsWith(b) || a.endsWith(b) ? 2.5 : 1
 
   return w * lScale * (1.0 - editDistance / a.length)
