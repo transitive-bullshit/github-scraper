@@ -37,6 +37,7 @@
     "email-validator": "^2.0.4",
     "got": "^12.5.3",
     "leven": "^4.0.0",
+    "npm-email": "^4.0.1",
     "octokit": "^2.0.10",
     "p-map": "^5.5.0"
   },

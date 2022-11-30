@@ -1,6 +1,9 @@
+import fs from 'node:fs/promises'
+
 import dotenv from 'dotenv-safe'
 import { validate as validateEmail } from 'email-validator'
 import leven from 'leven'
+import npmEmail from 'npm-email'
 import { Octokit } from 'octokit'
 import pMap from 'p-map'
 
@@ -19,6 +22,10 @@ async function main() {
     auth: process.env.GITHUB_ACCESS_TOKEN
   })
 
+  const usersCache: Record<string, types.User> = JSON.parse(
+    await fs.readFile('./out/v.json', 'utf-8')
+  ).reduce((m, u) => ({ ...m, [u.login]: u }), {})
+
   const repo: Repo = {
     owner: 'tastejs',
     repo: 'next-movies'
@@ -27,19 +34,22 @@ async function main() {
   const starredUsernames = stars.map((star) => star.login)
   // console.log(JSON.stringify(stars, null, 2))
 
-  // 157 / 390 have public emails...
-  // 263 / 390 have emails this way...
+  // 157 / 390 have public emails (40%)
+  // 106 / 233 get emails by inferring from commits (45%)
+  // 24 / 129 get emails by inferring from npm (19%)
+  // => 73% email addresses resolved
   const users = (
     await pMap(
       starredUsernames,
       async (username) => {
         if (!username) return null
+        if (usersCache[username]?.email) return null // TODO
 
         try {
           console.warn(`getUser(${username})`)
           const user = await getUser(username, octokit)
           if (!user.email) {
-            user.email = await getUserEmailFromRecentCommits(user, octokit)
+            user.email = await inferUserEmail(user, octokit)
           }
           return user
         } catch (err) {
@@ -59,7 +69,7 @@ async function main() {
 /**
  * @see https://github.com/paulirish/github-email
  */
-async function getUserEmailFromRecentCommits(
+async function inferUserEmail(
   user: types.User,
   octokit: Octokit
 ): Promise<string | null> {
@@ -115,6 +125,21 @@ async function getUserEmailFromRecentCommits(
     // TODO: ignore for now
   }
 
+  try {
+    const email = await npmEmail(username)
+    console.log('npm', username, email)
+    if (email) return email
+
+    const usernameL = user.login?.toLowerCase()
+    if (username !== usernameL) {
+      const email = await npmEmail(usernameL)
+      console.log('npm', usernameL, email)
+      if (email) return email
+    }
+  } catch (err) {
+    // TODO: ignore for now
+  }
+
   return null
 }
 
@@ -132,7 +157,7 @@ function getBestValidEmailForUser(
   const validEmails = uniqueEmails.filter((email) => {
     const e = email.toLowerCase()
     return (
-      validateEmail(e) &&
+      validateEmail(email) &&
       !e.includes('noreply') &&
       !e.includes('[bot]') &&
       !e.includes('snyk-bot') &&
@@ -141,14 +166,6 @@ function getBestValidEmailForUser(
       !e.endsWith('.local')
     )
   })
-
-  if (validEmails.length > 1) {
-    // TODO: handle multiple emails?
-    console.warn(
-      `warn: found multiple emails for user "${user.login}":`,
-      validEmails
-    )
-  }
 
   const email = getBestEmailForUser(user, validEmails)
   if (email) {
@@ -202,7 +219,10 @@ function getBestEmailForUser(user: types.User, emails: string[]) {
   }
 
   emails.sort((a, b) => emailToScore[b] - emailToScore[a])
-  console.log(Object.fromEntries(emails.map((e) => [e, emailToScore[e]])))
+  console.warn(
+    `warn: found multiple emails for user "${user.login}":`,
+    Object.fromEntries(emails.map((e) => [e, emailToScore[e]]))
+  )
 
   return emails[0]
 }
