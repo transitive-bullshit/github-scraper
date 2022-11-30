@@ -6,10 +6,10 @@ import * as utils from './utils'
 export async function getUserEvents(
   username: string,
   octokit: Octokit,
-  { pageSize = 100 }: { pageSize?: number } = {}
+  opts: { pageSize?: number } = { pageSize: 100 }
 ) {
   const res = await octokit.request('GET /users/{username}/events/public', {
-    per_page: pageSize,
+    per_page: opts.pageSize,
     username
   })
 
@@ -19,11 +19,11 @@ export async function getUserEvents(
 export async function getRecentUpdatedReposOwnedByUser(
   username: string,
   octokit: Octokit,
-  { pageSize = 100 }: { pageSize?: number } = {}
+  opts: { pageSize?: number } = { pageSize: 100 }
 ) {
   const res = await octokit.request('GET /users/{username}/repos', {
     username,
-    per_page: pageSize,
+    per_page: opts.pageSize,
     type: 'owner',
     sort: 'pushed'
   })
@@ -35,12 +35,12 @@ export async function getRecentCommitsByUserForRepo(
   author: string,
   repo: types.Repo,
   octokit: Octokit,
-  { pageSize = 100 }: { pageSize?: number } = {}
+  opts: { pageSize?: number } = { pageSize: 100 }
 ) {
   const res = await octokit.request('GET /repos/{owner}/{repo}/commits', {
     owner: repo.owner,
     repo: repo.repo,
-    per_page: pageSize,
+    per_page: opts.pageSize,
     author
   })
 
@@ -72,14 +72,14 @@ export async function getUser(
 export async function getAllStargazers(
   repo: types.Repo,
   octokit: Octokit,
-  { pageSize = 100 }: { pageSize?: number } = {}
+  opts: { pageSize?: number } = { pageSize: 100 }
 ): Promise<types.UserLite[]> {
   const users = await octokit.paginate(
     octokit.rest.activity.listStargazersForRepo,
     {
       owner: repo.owner,
       repo: repo.repo,
-      per_page: pageSize
+      per_page: opts.pageSize
     }
   )
 
