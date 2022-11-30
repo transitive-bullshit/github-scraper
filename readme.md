@@ -26,6 +26,7 @@ _Requires Node.js 16 or later._
 _You'll need a `GITHUB_ACCESS_TOKEN` environment variable to run most methods._
 
 ```bash
+pnpm install
 npx tsx src/bin.ts
 ```
 
