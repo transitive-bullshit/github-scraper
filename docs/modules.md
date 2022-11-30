@@ -1,5 +1,3 @@
-# github-scraper
-
 ## Interfaces
 
 - [CommitAuthor](interfaces/CommitAuthor.md)
@@ -28,7 +26,7 @@
 
 #### Defined in
 
-[src/github.ts:72](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L72)
+[src/github.ts:72](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L72)
 
 ___
 
@@ -49,7 +47,7 @@ ___
 
 #### Defined in
 
-[src/get-best-email-for-user.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/get-best-email-for-user.ts#L6)
+[src/get-best-email-for-user.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/get-best-email-for-user.ts#L6)
 
 ___
 
@@ -73,7 +71,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:34](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L34)
+[src/github.ts:34](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L34)
 
 ___
 
@@ -96,7 +94,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:19](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L19)
+[src/github.ts:19](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L19)
 
 ___
 
@@ -117,7 +115,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:50](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L50)
+[src/github.ts:50](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L50)
 
 ___
 
@@ -140,7 +138,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L6)
+[src/github.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L6)
 
 ___
 
@@ -163,7 +161,7 @@ Based off of https://github.com/paulirish/github-email
 
 #### Defined in
 
-[src/infer-user-email.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/infer-user-email.ts#L11)
+[src/infer-user-email.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/infer-user-email.ts#L11)
 
 ___
 
@@ -184,4 +182,4 @@ ___
 
 #### Defined in
 
-[src/resolve-all-stargazers-for-repo.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/resolve-all-stargazers-for-repo.ts#L8)
+[src/resolve-all-stargazers-for-repo.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/resolve-all-stargazers-for-repo.ts#L8)

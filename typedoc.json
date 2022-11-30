@@ -7,5 +7,7 @@
   "hideBreadcrumbs": true,
   "hideInPageTOC": true,
   "excludeExternals": true,
-  "excludeInternal": true
+  "excludeInternal": true,
+  "hidePageTitle": true,
+  "entryDocument": "readme.md"
 }

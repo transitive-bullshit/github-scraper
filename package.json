@@ -17,7 +17,7 @@
     "build"
   ],
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "scripts": {
     "build": "tsup",
@@ -26,6 +26,7 @@
     "prebuild": "run-s clean",
     "predev": "run-s clean",
     "pretest": "run-s build",
+    "docs": "typedoc",
     "prepare": "husky install",
     "pre-commit": "lint-staged",
     "test": "run-p test:*",

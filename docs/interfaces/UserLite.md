@@ -1,5 +1,3 @@
-# Interface: UserLite
-
 ## Hierarchy
 
 - **`UserLite`**
@@ -14,7 +12,7 @@
 
 #### Defined in
 
-[src/types.ts:12](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L12)
+[src/types.ts:12](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L12)
 
 ___
 
@@ -24,7 +22,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:13](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L13)
+[src/types.ts:13](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L13)
 
 ___
 
@@ -34,7 +32,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L8)
+[src/types.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L8)
 
 ___
 
@@ -44,7 +42,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:7](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L7)
+[src/types.ts:7](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L7)
 
 ___
 
@@ -54,7 +52,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:9](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L9)
+[src/types.ts:9](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L9)
 
 ___
 
@@ -64,7 +62,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L11)
+[src/types.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L11)
 
 ___
 
@@ -74,4 +72,4 @@ ___
 
 #### Defined in
 
-[src/types.ts:10](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L10)
+[src/types.ts:10](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L10)

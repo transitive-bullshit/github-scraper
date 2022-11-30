@@ -1,5 +1,3 @@
-# Interface: User
-
 ## Hierarchy
 
 - [`UserLite`](UserLite.md)
@@ -18,7 +16,7 @@
 
 #### Defined in
 
-[src/types.ts:12](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L12)
+[src/types.ts:12](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L12)
 
 ___
 
@@ -28,7 +26,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:32](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L32)
+[src/types.ts:32](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L32)
 
 ___
 
@@ -38,7 +36,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:30](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L30)
+[src/types.ts:30](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L30)
 
 ___
 
@@ -48,7 +46,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:29](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L29)
+[src/types.ts:29](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L29)
 
 ___
 
@@ -58,7 +56,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:37](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L37)
+[src/types.ts:37](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L37)
 
 ___
 
@@ -68,7 +66,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:39](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L39)
+[src/types.ts:39](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L39)
 
 ___
 
@@ -78,7 +76,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:25](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L25)
+[src/types.ts:25](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L25)
 
 ___
 
@@ -88,7 +86,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:35](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L35)
+[src/types.ts:35](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L35)
 
 ___
 
@@ -98,7 +96,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:18](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L18)
+[src/types.ts:18](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L18)
 
 ___
 
@@ -108,7 +106,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:36](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L36)
+[src/types.ts:36](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L36)
 
 ___
 
@@ -118,7 +116,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:19](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L19)
+[src/types.ts:19](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L19)
 
 ___
 
@@ -128,7 +126,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:20](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L20)
+[src/types.ts:20](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L20)
 
 ___
 
@@ -142,7 +140,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:13](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L13)
+[src/types.ts:13](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L13)
 
 ___
 
@@ -152,7 +150,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:40](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L40)
+[src/types.ts:40](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L40)
 
 ___
 
@@ -162,7 +160,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:17](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L17)
+[src/types.ts:17](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L17)
 
 ___
 
@@ -176,7 +174,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L8)
+[src/types.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L8)
 
 ___
 
@@ -186,7 +184,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:31](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L31)
+[src/types.ts:31](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L31)
 
 ___
 
@@ -200,7 +198,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:7](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L7)
+[src/types.ts:7](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L7)
 
 ___
 
@@ -210,7 +208,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:28](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L28)
+[src/types.ts:28](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L28)
 
 ___
 
@@ -224,7 +222,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:9](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L9)
+[src/types.ts:9](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L9)
 
 ___
 
@@ -234,7 +232,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:23](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L23)
+[src/types.ts:23](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L23)
 
 ___
 
@@ -244,7 +242,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:34](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L34)
+[src/types.ts:34](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L34)
 
 ___
 
@@ -254,7 +252,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:33](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L33)
+[src/types.ts:33](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L33)
 
 ___
 
@@ -264,7 +262,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:26](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L26)
+[src/types.ts:26](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L26)
 
 ___
 
@@ -274,7 +272,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:24](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L24)
+[src/types.ts:24](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L24)
 
 ___
 
@@ -288,7 +286,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L11)
+[src/types.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L11)
 
 ___
 
@@ -298,7 +296,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:21](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L21)
+[src/types.ts:21](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L21)
 
 ___
 
@@ -308,7 +306,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:22](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L22)
+[src/types.ts:22](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L22)
 
 ___
 
@@ -318,7 +316,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:41](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L41)
+[src/types.ts:41](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L41)
 
 ___
 
@@ -328,7 +326,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:27](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L27)
+[src/types.ts:27](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L27)
 
 ___
 
@@ -338,7 +336,7 @@ ___
 
 #### Defined in
 
-[src/types.ts:38](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L38)
+[src/types.ts:38](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L38)
 
 ___
 
@@ -352,4 +350,4 @@ ___
 
 #### Defined in
 
-[src/types.ts:10](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L10)
+[src/types.ts:10](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L10)
