@@ -2,7 +2,7 @@
 
 > Misc scripts for scraping GitHub.
 
-[![NPM](https://img.shields.io/npm/v/github-scraper.svg)](https://www.npmjs.com/package/github-scraper) [![Build Status](https://github.com/transitive-bullshit/github-scraper/actions/workflows/test.yml/badge.svg)](https://github.com/transitive-bullshit/github-scraper/actions/workflows/test.yml) [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/transitive-bullshit/github-scraper/blob/main/license) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
+[![Build Status](https://github.com/transitive-bullshit/github-scraper/actions/workflows/test.yml/badge.svg)](https://github.com/transitive-bullshit/github-scraper/actions/workflows/test.yml) [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/transitive-bullshit/github-scraper/blob/main/license) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
 
 - [Intro](#intro)
 - [License](#license)
