@@ -11,7 +11,7 @@
 
 ### getAllStargazers
 
-▸ **getAllStargazers**(`repo`, `octokit`, `__namedParameters?`): `Promise`<[`UserLite`](interfaces/UserLite.md)[]\>
+▸ **getAllStargazers**(`repo`, `octokit`, `opts?`): `Promise`<[`UserLite`](interfaces/UserLite.md)[]\>
 
 #### Parameters
 
@@ -19,8 +19,8 @@
 | :------ | :------ |
 | `repo` | [`Repo`](interfaces/Repo.md) |
 | `octokit` | `Octokit` & {} & `Api` & {} |
-| `__namedParameters` | `Object` |
-| `__namedParameters.pageSize?` | `number` |
+| `opts` | `Object` |
+| `opts.pageSize?` | `number` |
 
 #### Returns
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/github.ts:72](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/github.ts#L72)
+[src/github.ts:72](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L72)
 
 ___
 
@@ -49,13 +49,13 @@ ___
 
 #### Defined in
 
-[src/get-best-email-for-user.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/get-best-email-for-user.ts#L6)
+[src/get-best-email-for-user.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/get-best-email-for-user.ts#L6)
 
 ___
 
 ### getRecentCommitsByUserForRepo
 
-▸ **getRecentCommitsByUserForRepo**(`author`, `repo`, `octokit`, `__namedParameters?`): `Promise`<{}[]\>
+▸ **getRecentCommitsByUserForRepo**(`author`, `repo`, `octokit`, `opts?`): `Promise`<{}[]\>
 
 #### Parameters
 
@@ -64,8 +64,8 @@ ___
 | `author` | `string` |
 | `repo` | [`Repo`](interfaces/Repo.md) |
 | `octokit` | `Octokit` & {} & `Api` & {} |
-| `__namedParameters` | `Object` |
-| `__namedParameters.pageSize?` | `number` |
+| `opts` | `Object` |
+| `opts.pageSize?` | `number` |
 
 #### Returns
 
@@ -73,13 +73,13 @@ ___
 
 #### Defined in
 
-[src/github.ts:34](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/github.ts#L34)
+[src/github.ts:34](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L34)
 
 ___
 
 ### getRecentUpdatedReposOwnedByUser
 
-▸ **getRecentUpdatedReposOwnedByUser**(`username`, `octokit`, `__namedParameters?`): `Promise`<{}[]\>
+▸ **getRecentUpdatedReposOwnedByUser**(`username`, `octokit`, `opts?`): `Promise`<{}[]\>
 
 #### Parameters
 
@@ -87,8 +87,8 @@ ___
 | :------ | :------ |
 | `username` | `string` |
 | `octokit` | `Octokit` & {} & `Api` & {} |
-| `__namedParameters` | `Object` |
-| `__namedParameters.pageSize?` | `number` |
+| `opts` | `Object` |
+| `opts.pageSize?` | `number` |
 
 #### Returns
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:19](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/github.ts#L19)
+[src/github.ts:19](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L19)
 
 ___
 
@@ -117,13 +117,13 @@ ___
 
 #### Defined in
 
-[src/github.ts:50](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/github.ts#L50)
+[src/github.ts:50](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L50)
 
 ___
 
 ### getUserEvents
 
-▸ **getUserEvents**(`username`, `octokit`, `__namedParameters?`): `Promise`<{}[]\>
+▸ **getUserEvents**(`username`, `octokit`, `opts?`): `Promise`<{}[]\>
 
 #### Parameters
 
@@ -131,8 +131,8 @@ ___
 | :------ | :------ |
 | `username` | `string` |
 | `octokit` | `Octokit` & {} & `Api` & {} |
-| `__namedParameters` | `Object` |
-| `__namedParameters.pageSize?` | `number` |
+| `opts` | `Object` |
+| `opts.pageSize?` | `number` |
 
 #### Returns
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/github.ts#L6)
+[src/github.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/github.ts#L6)
 
 ___
 
@@ -163,7 +163,7 @@ Based off of https://github.com/paulirish/github-email
 
 #### Defined in
 
-[src/infer-user-email.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/infer-user-email.ts#L11)
+[src/infer-user-email.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/infer-user-email.ts#L11)
 
 ___
 
@@ -184,4 +184,4 @@ ___
 
 #### Defined in
 
-[src/resolve-all-stargazers-for-repo.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/resolve-all-stargazers-for-repo.ts#L8)
+[src/resolve-all-stargazers-for-repo.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/resolve-all-stargazers-for-repo.ts#L8)

@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/types.ts:45](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/types.ts#L45)
+[src/types.ts:45](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L45)
 
 ___
 
@@ -18,4 +18,4 @@ ___
 
 #### Defined in
 
-[src/types.ts:46](https://github.com/transitive-bullshit/github-scraper/blob/9ff1088/src/types.ts#L46)
+[src/types.ts:46](https://github.com/transitive-bullshit/github-scraper/blob/6f458e4/src/types.ts#L46)
