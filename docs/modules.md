@@ -1,9 +1,26 @@
-## Interfaces
+[github-scraper](readme.md) / Exports
+
+# github-scraper
+
+## Table of contents
+
+### Interfaces
 
 - [CommitAuthor](interfaces/CommitAuthor.md)
 - [Repo](interfaces/Repo.md)
 - [User](interfaces/User.md)
 - [UserLite](interfaces/UserLite.md)
+
+### Functions
+
+- [getAllStargazers](modules.md#getallstargazers)
+- [getBestEmailForUser](modules.md#getbestemailforuser)
+- [getRecentCommitsByUserForRepo](modules.md#getrecentcommitsbyuserforrepo)
+- [getRecentUpdatedReposOwnedByUser](modules.md#getrecentupdatedreposownedbyuser)
+- [getUser](modules.md#getuser)
+- [getUserEvents](modules.md#getuserevents)
+- [inferUserEmail](modules.md#inferuseremail)
+- [resolveAllStargazersForRepo](modules.md#resolveallstargazersforrepo)
 
 ## Functions
 
@@ -26,7 +43,7 @@
 
 #### Defined in
 
-[src/github.ts:72](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L72)
+[src/github.ts:72](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/github.ts#L72)
 
 ___
 
@@ -47,7 +64,7 @@ ___
 
 #### Defined in
 
-[src/get-best-email-for-user.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/get-best-email-for-user.ts#L6)
+[src/get-best-email-for-user.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/get-best-email-for-user.ts#L6)
 
 ___
 
@@ -71,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:34](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L34)
+[src/github.ts:34](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/github.ts#L34)
 
 ___
 
@@ -94,7 +111,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:19](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L19)
+[src/github.ts:19](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/github.ts#L19)
 
 ___
 
@@ -115,7 +132,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:50](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L50)
+[src/github.ts:50](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/github.ts#L50)
 
 ___
 
@@ -138,7 +155,7 @@ ___
 
 #### Defined in
 
-[src/github.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/github.ts#L6)
+[src/github.ts:6](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/github.ts#L6)
 
 ___
 
@@ -161,7 +178,7 @@ Based off of https://github.com/paulirish/github-email
 
 #### Defined in
 
-[src/infer-user-email.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/infer-user-email.ts#L11)
+[src/infer-user-email.ts:11](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/infer-user-email.ts#L11)
 
 ___
 
@@ -182,4 +199,4 @@ ___
 
 #### Defined in
 
-[src/resolve-all-stargazers-for-repo.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/resolve-all-stargazers-for-repo.ts#L8)
+[src/resolve-all-stargazers-for-repo.ts:8](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/resolve-all-stargazers-for-repo.ts#L8)

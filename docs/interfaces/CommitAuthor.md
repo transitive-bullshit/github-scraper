@@ -1,3 +1,14 @@
+[github-scraper](../readme.md) / [Exports](../modules.md) / CommitAuthor
+
+# Interface: CommitAuthor
+
+## Table of contents
+
+### Properties
+
+- [email](CommitAuthor.md#email)
+- [name](CommitAuthor.md#name)
+
 ## Properties
 
 ### email
@@ -6,7 +17,7 @@
 
 #### Defined in
 
-[src/types.ts:45](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L45)
+[src/types.ts:45](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/types.ts#L45)
 
 ___
 
@@ -16,4 +27,4 @@ ___
 
 #### Defined in
 
-[src/types.ts:46](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L46)
+[src/types.ts:46](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/types.ts#L46)

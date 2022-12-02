@@ -1,3 +1,14 @@
+[github-scraper](../readme.md) / [Exports](../modules.md) / Repo
+
+# Interface: Repo
+
+## Table of contents
+
+### Properties
+
+- [owner](Repo.md#owner)
+- [repo](Repo.md#repo)
+
 ## Properties
 
 ### owner
@@ -6,7 +17,7 @@
 
 #### Defined in
 
-[src/types.ts:2](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L2)
+[src/types.ts:2](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/types.ts#L2)
 
 ___
 
@@ -16,4 +27,4 @@ ___
 
 #### Defined in
 
-[src/types.ts:3](https://github.com/transitive-bullshit/github-scraper/blob/3209f4e/src/types.ts#L3)
+[src/types.ts:3](https://github.com/transitive-bullshit/github-scraper/blob/86b719c/src/types.ts#L3)
